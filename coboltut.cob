@@ -8,7 +8,7 @@ environment division.
 data division.
 file section.
 
-*
+* probably just gonna get familiar with the syntax highlighting for now lol
 working-storage section.
 01 UserName    pic x(30) value "user0".
 01 Num1    pic 9 value zeroes.

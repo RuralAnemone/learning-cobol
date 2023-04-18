@@ -1,6 +1,6 @@
 000100 identification division.
 000200 program-id. coboltut.
-000300 author. Isaiah Wallerstedt.
+000300 author. Isaiah W.
 000400 date-written. April 17th 2023.
 000500 
 000600 environment division.
@@ -29,5 +29,5 @@
 002900 procedure division.
 003000 display "enter your name: " with no advancing.
 003100 accept UserName.
-003200 display "hi " UserName.3
+003200 display "hi " UserName.
 003300 stop run.

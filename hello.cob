@@ -2,7 +2,7 @@
 000200 program-id. hello.
 000300 author. Isaiah W.
 000400 date-written. April 18th, 2023.
-000600 procedure division.
-000700 display "hello world".
-000800*
-000900 stop run.
+000500 procedure division.
+000600 display "hello world".
+000700*
+000800 stop run.

@@ -19,7 +19,17 @@
               02 SSArea   pic 999.
               02 SSGroup  pic 99.
               02 SSSerial pic 9999.
-       01 PIValue constant as 3.14
+       01 PIVALUE constant as 3.14
+      * figurative (predefined?) constants:
+      * -----------------------------------
+      * zero, zeroes, zeros
+      * space(s)
+      * high-value(s) (largest value of defined type)
+      * low-value(s) (smallest value of defined type)
        
        procedure division.
-       
+       display "enter your name " with no advancing.
+       accept UserName.
+       display "hi " UserName.
+
+       stop run

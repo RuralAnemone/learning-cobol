@@ -1,35 +1,33 @@
-       >>source format free
-       identification division.
-       program-id. coboltut.
-       author. Isaiah Wallerstedt.
-       date-written. April 17th 2023.
-       
-       environment division.
-       
-       data division.
-       file section.
-       
-      * probably just gonna get familiar with the syntax highlighting for now lol
-       working-storage section.
-       01 UserName    pic x(30) value "user0".
-       01 Num1    pic 9 value zeroes.
-       01 Num2    pic 9 value zeroes.
-       01 Total   pic 99 value 0.
-       01 SSNum.
-              02 SSArea   pic 999.
-              02 SSGroup  pic 99.
-              02 SSSerial pic 9999.
-       01 PIVALUE constant as 3.14
-      * figurative (predefined?) constants:
-      * -----------------------------------
-      * zero, zeroes, zeros
-      * space(s)
-      * high-value(s) (largest value of defined type)
-      * low-value(s) (smallest value of defined type)
-       
-       procedure division.
-       display "enter your name " with no advancing.
-       accept UserName.
-       display "hi " UserName.
-
-       stop run
+000100 identification division.
+000200 program-id. coboltut.
+000300 author. Isaiah Wallerstedt.
+000400 date-written. April 17th 2023.
+000500 
+000600 environment division.
+000700 
+000800 data division.
+000900 file section.
+001000 
+001100* probably just gonna get familiar with the syntax highlighting for now lol
+001200 working-storage section.
+001300 01 UserName    pic x(30) value "user0".
+001400 01 Num1    pic 9 value zeroes.
+001500 01 Num2    pic 9 value zeroes.
+001600 01 Total   pic 99 value 0.
+001700 01 SSNum.
+001800     02 SSArea   pic 999.
+001900     02 SSGroup  pic 99.
+002000     02 SSSerial pic 9999.
+002100 01 PIValue constant as 3.14.
+002200* figurative (predefined?) constants:
+002300* -----------------------------------
+002400* zero, zeroes, zeros
+002500* space(s)
+002600* high-value(s) (largest value of defined type)
+002700* low-value(s) (smallest value of defined type)
+002800 
+002900 procedure division.
+003000 display "enter your name: " with no advancing.
+003100 accept UserName.
+003200 display "hi " UserName.3
+003300 stop run.

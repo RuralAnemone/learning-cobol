@@ -2,12 +2,12 @@
 000200 program-id. coboltut.
 000300 author. Isaiah W.
 000400 date-written. April 17th 2023.
-000500 
+000500*
 000600 environment division.
-000700 
+000700*
 000800 data division.
 000900 file section.
-001000 
+001000*
 001100* probably just gonna get familiar with the syntax highlighting for now lol
 001200 working-storage section.
 001300 01 UserName    pic x(30) value "user0".
@@ -25,7 +25,7 @@
 002500* space(s)
 002600* high-value(s) (largest value of defined type)
 002700* low-value(s) (smallest value of defined type)
-002800 
+002800*
 002900 procedure division.
 003000 display "enter your name: " with no advancing.
 003100 accept UserName.

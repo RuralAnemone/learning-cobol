@@ -8,7 +8,8 @@
 000800 data division.
 000900 file section.
 001000*
-001100* probably just gonna get familiar with the syntax highlighting for now lol
+001100* probably just gonna get familiar with the
+001150* syntax highlighting for now lol
 001200 working-storage section.
 001300 01 UserName    pic x(30) value "user0".
 001400 01 Num1    pic 9 value zeroes.

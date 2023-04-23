@@ -31,4 +31,15 @@
 003000 display "enter your name: " with no advancing.
 003100 accept UserName.
 003200 display "hi " UserName.
-003300 stop run.
+003300
+003400 move zero to UserName.
+003500 display UserName.
+003600 display "Enter 2 values to sum: " with no advancing.
+003700     accept Num1.
+003800     accept Num2.
+003900     compute Total = Num1 + Num2.
+004000 display Num1 " + " Num2 " = " Total.
+004100 display "Enter your social security number: " with no advancing.
+004200     accept SSNum.
+004300 display "Area: " SSArea.
+004400 stop run.

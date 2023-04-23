@@ -31,4 +31,18 @@
            display "you can't vote! L bozo!"
        end-if
 
+       if Age < 5 then 
+           display "stay home, fetus"
+       else if Age = 5 then
+           display "go to kindergarten"
+       else if Age > 5 and age < 18 then 
+           compute Grade = Age - 5
+           display "go to grade " Grade
+       end-if end-if end-if
+      *> hmm that doesn't look too hot
+       
+       if Age greater than or equal to 18
+           display "go to college"
+       end-if
+
        stop run.
